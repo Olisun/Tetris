@@ -12,16 +12,18 @@
 
 .grid {
   margin-top: 1rem;
-  width: 200px;
-  height: 400px;
+  width: 220px;
+  height: 440px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
 }
 
 .grid div {
   height: 20px;
   width: 20px;
+  /* border: 1px solid red; */
+  margin: 1px;
+  background-color: yellow;
 }
 
 h3 {
