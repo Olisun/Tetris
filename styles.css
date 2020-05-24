@@ -1,3 +1,15 @@
+body {
+  background-color: blue;
+}
+
+h3 {
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+}
+
 .outer-container {
   text-align: center;
 }
@@ -16,20 +28,15 @@
   height: 440px;
   display: flex;
   flex-wrap: wrap;
+  background-color: yellow;
 }
 
 .grid div {
   height: 20px;
   width: 20px;
-  /* border: 1px solid red; */
   margin: 1px;
-  background-color: yellow;
 }
 
-h3 {
-  display: inline-block;
-}
-
-button {
-  display: inline-block;
+.tetromino {
+  background-color: red;
 }
