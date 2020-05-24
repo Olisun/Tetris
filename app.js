@@ -45,8 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Putting all the tetris shapes into an array. 
   const theTetrominos = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino];
 
-  let currentPosition = 4;
-  let current = theTetrominos[0][0];
 
   console.log(squares[currentPosition])
 
